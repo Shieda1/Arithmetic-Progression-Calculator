@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arithmetic Progression Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="arithmeticProgressionRadio" name="variables" checked>
+  <label for="arithmeticProgressionRadio">Arithmetic Progression</label>
+
+  <input type="radio" id="firstTermintheSeriesRadio" name="variables">
+  <label for="firstTermintheSeriesRadio">First Term in the Series</label>
+
+  <input type="radio" id="lastTermintheSeriesnthtermRadio" name="variables">
+  <label for="lastTermintheSeriesnthtermRadio">Last Term in the Series, nth term</label>
+
+  <input type="radio" id="commonDifferenceRadio" name="variables">
+  <label for="commonDifferenceRadio">Common Difference</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">(a) First Term in the Series</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">(n) Last Term in the Series, nth term</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">(d) Common Difference</label>
+  <input type="number" id="v3"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
